@@ -1,0 +1,26 @@
+{
+  "name": "tessel-twilio-camera",
+  "version": "1.0.0",
+  "description": "Uses a Tessel with an accelerometer and camera to send images by MMS when the device is moved.",
+  "main": "camera.js",
+  "dependencies": {
+    "accel-mma84": "^0.2.3",
+    "camera-vc0706": "^0.1.6",
+    "request": "^2.44.0",
+    "twilio": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allanca/tessel-twilio-camera"
+  },
+  "author": "Allan Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allanca/tessel-twilio-camera/issues"
+  },
+  "homepage": "https://github.com/allanca/tessel-twilio-camera"
+}
